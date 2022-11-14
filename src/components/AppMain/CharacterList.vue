@@ -1,5 +1,5 @@
 <script>
-import { store } from '../../store.js';
+import { store } from '../../store';
 import CharacterItem from './CharacterItem.vue';
 
 export default {
@@ -20,8 +20,8 @@ export default {
     <div class="characters">
         <div class="container">
             <div class="row">
-                <div class="col-2">
-                    <CharacterItem v-for="character in store.characters" :character="characters"></CharacterItem>
+                <div class="col-2" v-for="character in store.characters">
+                    <CharacterItem :character="character"></CharacterItem>
                 </div>
                 <!-- /.col-2 -->
             </div>

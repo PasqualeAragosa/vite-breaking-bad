@@ -33,5 +33,28 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.character {
+    height: 300px;
+    background-color: black;
+    background-image: linear-gradient(to top, #036727, #13483B);
+    color: white;
+    padding: 1rem;
+    margin: 1.5rem 0;
 
+
+    img {
+        height: 140px;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+    }
+
+    span {
+        display: inline-block;
+        font-size: 1rem;
+    }
+
+    span.name {
+        text-transform: uppercase;
+    }
+}
 </style>

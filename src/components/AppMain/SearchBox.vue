@@ -22,7 +22,7 @@ export default {
 
         <div class="founded">
             <span v-if="foundedCharacters !== 0">
-                Trovati {{ foundedCharacters }} personaggi
+                Trovati {{ this.store.foundedCharacters }} personaggi
             </span>
         </div>
         <!-- /.founded -->

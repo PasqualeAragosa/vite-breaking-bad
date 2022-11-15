@@ -33,7 +33,6 @@ export default {
   },
   mounted() {
     this.callApi(this.store.API_URL)
-    console.log(this.store)
   }
 }
 </script>

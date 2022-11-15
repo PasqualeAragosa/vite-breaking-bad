@@ -42,6 +42,7 @@ export default {
     margin: 1.5rem 0;
 
 
+
     img {
         height: 140px;
         aspect-ratio: 1 / 1;

@@ -22,8 +22,9 @@ export default {
       axios.get(url)
         .then(response => {
           console.log(response);
-          this.store.characters = response.data
-          this.store.foundedItems = response.data.length
+          this.store.characters = response.data;
+          this.store.foundedCharacters = response.data.length;
+          console.log('personaggi: ', this.store.foundedCharacters);
         })
         .catch(err => {
           console.log(err.message);

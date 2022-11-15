@@ -5,4 +5,5 @@ export const store = reactive({
     error: null,
     characters: null,
     searchText: '',
+    foundedCharacters: 0,
 })
